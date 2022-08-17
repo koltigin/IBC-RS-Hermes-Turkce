@@ -30,7 +30,7 @@ Daha fazla ayrıntı için aşağıdaki tabloya bakın.
 
 [TLA+ specifications](docs/spec) içerir.
 
-| Crate name                                   |   Type                     |     Version                                                                                  | Docs   |
+| Paket adı                                   |   Tipi                     |     Versiyon                                                                                  | Dokümanlar   |
 |:-------------:|:------:|:-------------:|:-----:|
 | [ibc](./modules)                             | lib                         | [![IBC Crate][ibc-crate-image]][ibc-crate-link]                                              | [![IBC Docs][ibc-docs-image]][ibc-docs-link]                                              |
 | [ibc-relayer](./relayer)                     | lib                         | [![IBC Relayer Crate][relayer-crate-image]][relayer-crate-link]                              | [![IBC Relayer Docs][relayer-docs-image]][relayer-docs-link]                              |
@@ -47,25 +47,23 @@ Bu projedeki paketler, Rust'ın en son kararlı sürümünü gerektiriyor: `1.60
 
 ## Hermes Rehberi
 
-The relayer CLI binary, called `hermes`, has a comprehensive guide at
+`Hermes` olarak adlandırılan relayer CLI binary dosyası, bu adreste kapsamlı bir kılavuza bulunmaktadır:
 [hermes.informal.systems](http://hermes.informal.systems).
 
-## Contributing
+## Katkıda Bulunma
 
-IBC is specified in English in the [cosmos/ibc repo](https://github.com/cosmos/ibc). Any
-protocol changes or clarifications should be contributed there.
+IBC, [cosmos/ibc deposunda](https://github.com/cosmos/ibc) İngilizce olarak belirtilir.
+Herhangi bir protokol değişikliği veya açıklama buraya eklenmelidir.
 
-This repo contains the TLA+ specification and Rust implementation for the IBC
-modules and relayer. If you're interested in contributing, please comment on an issue or open a new one!
+Bu depo, IBC modülleri ve aktarıcı için TLA+ özeliklerini ve Rust uygulamasını içerir. Katkıda bulunmakla ilgileniyorsanız, lütfen bir konu hakkında yorum yapın veya yeni bir tane açın!
 
-See also [CONTRIBUTING.md](./CONTRIBUTING.md).
+Ayrıca bkz. [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-## Versioning
+## Sürüm Oluşturma
 
-We follow [Semantic Versioning](https://semver.org/), though APIs are still
-under active development.
+API'ler hala aktif geliştirme aşamasında olsa da [Semantik Sürüm Oluşturma](https://semver.org/)'yı takip ediyoruz.
 
-## Resources
+## Kaynaklar
 
 - [IBC Website](https://cosmos.network/ibc)
 - [IBC Specification](https://github.com/cosmos/ibc)
@@ -73,15 +71,15 @@ under active development.
 - [IBC Relayer in Typescript](https://github.com/confio/ts-relayer)
 - [IBC Relayer in Go](https://github.com/cosmos/relayer)
 
-## License
+## Lisans
 
-Copyright © 2022 Informal Systems Inc. and ibc-rs authors.
+Telif hakkı © 2022 Informal Systems Inc. ve ibc-rs yazarları.
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use the files in this repository except in compliance with the License. You may obtain a copy of the License at
+Apache Lisansı, Sürüm 2.0 ("Lisans"); Lisansa uygun olmadıkça bu depodaki dosyaları kullanamazsınız. Lisansın bir kopyasını şu adresten edinebilirsiniz:
 
     https://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+Yürürlükteki yasa tarafından gerekmedikçe veya yazılı olarak kabul edilmedikçe, Lisans kapsamında dağıtılan yazılım, açık veya zımni HİÇBİR GARANTİ VEYA KOŞUL OLMADAN "OLDUĞU GİBİ" dağıtılır. Lisans kapsamındaki izinleri ve sınırlamaları yöneten belirli dil için Lisansa bakın.
 
 [ibc-crate-image]: https://img.shields.io/crates/v/ibc.svg
 [ibc-crate-link]: https://crates.io/crates/ibc
