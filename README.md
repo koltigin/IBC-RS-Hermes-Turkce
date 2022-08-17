@@ -1,6 +1,6 @@
-# ibc-rs
+# IBC-RS - Türkçe
 
-[![Cosmos ecosystem][cosmos-shield]][cosmos-link]
+[![Cosmos Ekosistemi][cosmos-shield]][cosmos-link]
 
 [![Build Status][build-image]][build-link]
 [![End to End testing][e2e-image]][e2e-link]
@@ -8,27 +8,27 @@
 ![Rust Stable][rustc-image]
 ![Rust 1.60+][rustc-version]
 
-Rust implementation of the Inter-Blockchain Communication (IBC) protocol.
+Inter-Blockchain Communication (IBC) protokolünün Rust uygulaması.
 
-This project comprises primarily four crates:
+Bu proje öncelikle dört paketten oluşmaktadır:
 
-- The [`ibc`][ibc-crate-link] crate defines the main data structures and
-  on-chain logic for the IBC protocol.
-- The [`ibc-relayer`][relayer-crate-link] crate provides an implementation
-  of an IBC relayer, as a _library_.
-- The [`ibc-relayer-cli`][relayer-cli-crate-link] crate is a CLI (a wrapper
-  over the `ibc-relayer` library), comprising the
-  [`hermes`](https://hermes.informal.systems) binary.
-- The [`ibc-proto`][ibc-proto-crate-link] crate is a library with Rust types generated from .proto definitions
-  necessary for interacting with [Cosmos SDK](https://github.com/cosmos/cosmos-sdk/tree/master/proto/cosmos)
-  and its [IBC structs](https://github.com/cosmos/ibc-go/tree/main/proto/ibc).
-- The [`ibc-telemetry`][ibc-telemetry-crate-link] crate is a library for use in the `hermes` CLI,
-  for gathering telemetry data and exposing that in a Prometheus endpoint.
-- The [`ibc-test-framework`][ibc-test-framework-crate-link] crate provides the infrastructure and framework for writing end-to-end (E2E) tests that include the spawning of the relayer together with Cosmos full nodes.
+- [`ibc`][ibc-crate-link] paketi, IBC protokolü için ana veri yapılarını ve 
+  zincir üstü mantığı tanımlar.
+- [`ibc-relayer`][relayer-crate-link] paketi, bir _library_ olarak 
+  bir IBC aktarıcısının uygulamasını sağlar.
+- [`ibc-relayer-cli`][relayer-cli-crate-link] paketi,
+  [`hermes`](https://hermes.informal.systems) binary dosyasını içeren
+  bir CLI'dir (`ibc-relayer` kitaplığı üzerindeki bir sarıcı).
+- [`ibc-proto`][ibc-proto-crate-link] paketi, [Cosmos SDK](https://github.com/cosmos/cosmos-sdk/tree/master/proto/cosmos) ve onun [IBC yapıları](https://github.com/cosmos/ibc-go/tree/main/proto/ibc) ile 
+  etkileşim için gerekli `.proto` tanımlarından oluşturulan 
+  Rust tiplerine sahip bir kitaplıktır.  
+- [`ibc-telemetri`][ibc-telemetri-crate-link] paketi, telemetri verilerini toplamak ve 
+  bunu bir Prometheus uç noktasında açığa çıkarmak için `hermes` CLI'de kullanım için bir kitaplıktır.
+- [`ibc-test-framework`][ibc-test-framework-crate-link] kasası, Cosmos full node'larıyla birlikte aktarıcının oluşturulmasını içeren uçtan uca (E2E) testler yazmak için altyapı ve çerçeve sağlar.
 
-See the table below for more details.
+Daha fazla ayrıntı için aşağıdaki tabloya bakın.
 
-Includes [TLA+ specifications](docs/spec).
+[TLA+ specifications](docs/spec) içerir.
 
 | Crate name                                   |   Type                     |     Version                                                                                  | Docs   |
 |:-------------:|:------:|:-------------:|:-----:|
@@ -41,11 +41,11 @@ Includes [TLA+ specifications](docs/spec).
 | [ibc-test-framework](./tools/test-framework) | lib                         | [![IBC Test Framework Crate][ibc-test-framework-crate-image]][ibc-test-framework-crate-link] | [![IBC Test Framework Docs][ibc-test-framework-docs-image]][ibc-test-framework-docs-link] |
 
 
-## Requirements
+## Gereksinimler
 
-The crates in this project require the latest stable version of Rust: `1.60.0`.
+Bu projedeki paketler, Rust'ın en son kararlı sürümünü gerektiriyor: `1.60.0`.
 
-## Hermes Guide
+## Hermes Rehberi
 
 The relayer CLI binary, called `hermes`, has a comprehensive guide at
 [hermes.informal.systems](http://hermes.informal.systems).
