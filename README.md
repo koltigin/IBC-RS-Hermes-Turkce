@@ -28,7 +28,7 @@ Bu proje öncelikle dört paketten oluşmaktadır:
 
 Daha fazla ayrıntı için aşağıdaki tabloya bakın.
 
-[TLA+ specifications](docs/spec) içerir.
+[TLA+ özellikleri](docs/spec) içerir.
 
 | Paket adı                                   |   Tipi                     |     Versiyon                                                                                  | Dokümanlar   |
 |:-------------:|:------:|:-------------:|:-----:|
